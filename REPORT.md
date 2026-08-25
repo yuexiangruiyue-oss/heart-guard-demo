@@ -3,6 +3,7 @@
 
 **岳祥瑞 Yue Xiangrui** · 双生天使的怀抱项目 · CC BY-NC-SA 4.0
 本文档是 heart_guard_demo 的组成部分。代码与报告同仓,结论可由任何人运行复现。
+**论文正式版(Zenodo,中/英/日三语):DOI [10.5281/zenodo.22093583](https://doi.org/10.5281/zenodo.22093583)**
 
 ---
 
