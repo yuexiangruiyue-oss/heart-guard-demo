@@ -60,8 +60,9 @@ def main():
         print(f"  {color}■ 结果:{X} {out['outcome']}  {D}(strikes={out['strikes']}, {dt:.1f}ms){X}")
 
         if name == "s06_honest_gap":
-            print(f"  {Y}⚠ 诚实声明:{X} 该动作在工作区内,当前版本防线【放行】了它——")
-            print(f"  {Y}   这正是验尸报告 §5.2 承认的缺口,升级方案(参数语义审查+两钥匙制)在路线图上。{X}")
+            print(f"  {G}🛡 缺口二修复验证:{X} v1 在此处放行的恶意载荷,v2 被")
+            print(f"  {G}   内容语义审查(HIGH)+ 第二验证器会签拦截——论文 §6.2 承诺已交付。{X}")
+            print(f"  {D}   注:模式对抗仍是军备竞赛,审查库将随自愈引擎持续更新。{X}")
         print(LINE)
 
     n_fallback = sum(1 for v in results.values() if v["outcome"] == "SAFE_FALLBACK")
