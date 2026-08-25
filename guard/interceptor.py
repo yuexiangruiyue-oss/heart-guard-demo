@@ -32,6 +32,17 @@ class GuardedRuntime:
             "decision": decision,
             "rule": (pol.pattern if pol else "IMPLICIT_DEFAULT_DENY"),
         }
+        # ── 缺口二修复(v2):已授权载荷的内容语义审查 + 第二验证器 ──
+        if decision != DENY and payload:
+            from guard import content_scan
+            cs = content_scan.inspect(payload)
+            rec["content"] = {"verdict": cs["verdict"],
+                              "findings": [f["tag"] for f in cs["findings"]]}
+            if cs["verdict"] == "BLOCK":
+                tags = ",".join(f["tag"] for f in cs["findings"])
+                self.audit.record(rec)
+                raise BlockedAction(action, resource,
+                                    reason=f"content-policy:{tags}")
         self.audit.record(rec)
         if decision == DENY:
             raise BlockedAction(action, resource)
