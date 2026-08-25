@@ -50,3 +50,14 @@ python tests/test_1000_attacks.py   # 自动化红队:1200 个随机越权/合�
 1. 不读心——动机层归训练目标管
 2. 已授权动作内的恶意语义(S6 如实演示)——升级方案在路线图
 3. 欺骗性对齐超出一切运行时方案——明示不覆盖
+## Contact
+
+- QQ: 406218898
+- WeChat: a13546076748
+- Google Email: yuexiangruiyue@gmail.com
+
+![wechat_qrcode](https://cdn-uploads.huggingface.co/production/uploads/6a0e9ee7a09839c3245efb4d/6GNsmhFg_Y2DZpR3ujYcG.png)
+
+![alipay_qrcode](https://cdn-uploads.huggingface.co/production/uploads/6a0e9ee7a09839c3245efb4d/0-LRrZ97UHDSNgYdum_kP.png)
+
+![欧易_1778716256597](https://cdn-uploads.huggingface.co/production/uploads/6a0e9ee7a09839c3245efb4d/RbH14JJPR6_CFTTpEKfYz.jpeg)
