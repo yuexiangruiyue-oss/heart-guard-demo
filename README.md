@@ -1,7 +1,7 @@
 # heart_guard_demo — 十六质点运行时治理栈 · 现场演示包
 
 **作者**:岳祥瑞 (Yue Xiangrui) · **许可**:CC BY-NC-SA 4.0
-配套论文:*验尸报告:2026夏五起智能体越界事件运行时拦截重构*(Zenodo DOI 待补)
+配套论文:*When Agents Cross the Line*(Zenodo,中/英/日三语):**DOI [10.5281/zenodo.22093583](https://doi.org/10.5281/zenodo.22093583)**
 
 ## 这是什么
 
